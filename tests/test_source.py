@@ -2,7 +2,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from seraph.scanners.source import SourceScanner
+from schedy_seraph.scanners.source import SourceScanner
 
 
 def _scan(tmp: Path, source: str):

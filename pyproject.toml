@@ -10,11 +10,6 @@ readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "MIT" }
 authors = [{ name = "schedylabs" }]
-
-[project.urls]
-Homepage = "https://github.com/schedylabs/seraph"
-Repository = "https://github.com/schedylabs/seraph"
-Issues = "https://github.com/schedylabs/seraph/issues"
 keywords = ["security", "supply-chain", "scanner", "python"]
 classifiers = [
     "Development Status :: 3 - Alpha",
@@ -27,8 +22,13 @@ classifiers = [
     "Topic :: Security",
 ]
 
+[project.urls]
+Homepage = "https://github.com/schedylabs/seraph"
+Repository = "https://github.com/schedylabs/seraph"
+Issues = "https://github.com/schedylabs/seraph/issues"
+
 [project.scripts]
-seraph = "seraph.cli:main"
+seraph = "schedy_seraph.cli:main"
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/seraph"]
+packages = ["src/schedy_seraph"]

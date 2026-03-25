@@ -13,7 +13,7 @@ from collections.abc import Iterator
 from importlib.metadata import Distribution
 from pathlib import Path
 
-from seraph.base import Finding, Scanner, ScanResult
+from schedy_seraph.base import Finding, Scanner, ScanResult
 
 
 class IntegrityScanner(Scanner):

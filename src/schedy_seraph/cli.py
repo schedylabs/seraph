@@ -5,9 +5,9 @@ Seraph CLI — supply chain security scanner.
 import argparse
 import sys
 
-from seraph import __version__
-from seraph.base import Scanner, ScanResult
-from seraph.scanners import IntegrityScanner, PersistenceScanner, PthScanner, PycScanner, SourceScanner
+from schedy_seraph import __version__
+from schedy_seraph.base import Scanner, ScanResult
+from schedy_seraph.scanners import IntegrityScanner, PersistenceScanner, PthScanner, PycScanner, SourceScanner
 
 
 # All active scanners — add new ones here

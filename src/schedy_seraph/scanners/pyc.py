@@ -14,8 +14,8 @@ import types
 from collections.abc import Iterator
 from pathlib import Path
 
-from seraph.base import Finding, Scanner, ScanResult
-from seraph.scanners._common import iter_site_packages
+from schedy_seraph.base import Finding, Scanner, ScanResult
+from schedy_seraph.scanners._common import iter_site_packages
 
 
 # Matches Base64 payloads with valid padding — requires trailing = or ==

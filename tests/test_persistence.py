@@ -3,8 +3,8 @@ import unittest
 from pathlib import Path
 from unittest.mock import patch
 
-import seraph.scanners.persistence as mod
-from seraph.scanners.persistence import PersistenceScanner, _ARTIFACTS
+import schedy_seraph.scanners.persistence as mod
+from schedy_seraph.scanners.persistence import PersistenceScanner, _ARTIFACTS
 
 
 class TestPersistenceScanner(unittest.TestCase):

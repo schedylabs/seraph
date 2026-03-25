@@ -4,7 +4,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from seraph.scanners.pyc import PycScanner
+from schedy_seraph.scanners.pyc import PycScanner
 
 
 def _make_pyc(tmp: Path, source: str, name: str = "mod") -> Path:

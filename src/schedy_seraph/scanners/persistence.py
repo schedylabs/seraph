@@ -8,7 +8,7 @@ sysmon backdoor, systemd persistence service, and exfiltration remnants.
 from collections.abc import Iterator
 from pathlib import Path
 
-from seraph.base import Finding, Scanner, ScanResult
+from schedy_seraph.base import Finding, Scanner, ScanResult
 
 
 def _artifacts() -> tuple[Path, ...]:

@@ -5,7 +5,7 @@ import unittest
 from pathlib import Path
 from unittest.mock import MagicMock
 
-from seraph.scanners.integrity import IntegrityScanner
+from schedy_seraph.scanners.integrity import IntegrityScanner
 
 
 def _dist(record: str, tmp: Path):

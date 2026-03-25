@@ -2,7 +2,7 @@ import textwrap
 import unittest
 from pathlib import Path
 
-from seraph.scanners.pth import PthScanner
+from schedy_seraph.scanners.pth import PthScanner
 
 
 def _scan(tmp: Path, content: str):
