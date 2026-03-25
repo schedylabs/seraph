@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "seraph"
+name = "schedy-seraph"
 version = "0.1.0"
 description = "Supply chain security scanner for Python projects"
 readme = "README.md"

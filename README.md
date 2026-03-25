@@ -19,7 +19,7 @@ Python packages are a common supply chain attack surface. Known vectors include 
 ## Installation
 
 ```bash
-pip install seraph
+pip install schedy-seraph
 ```
 
 ## Usage
