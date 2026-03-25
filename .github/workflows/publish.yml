@@ -32,4 +32,4 @@ jobs:
           python-version: "3.12"
       - run: pip install hatch
       - run: hatch build
-      - uses: pypa/gh-action-pypi-publish@76f52bc884231f62b9d0cb7ad15499e3f5e7e93e  # v1.12.3
+      - uses: pypa/gh-action-pypi-publish@c03e7fc4fb68e760409a4eb05a41050da01d8412  # v1.12.3
